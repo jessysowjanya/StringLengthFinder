@@ -1,0 +1,15 @@
+C:\StringLengthFinder\StringLengthFinder\bin\Debug\net6.0\StringLengthFinder.exe
+C:\StringLengthFinder\StringLengthFinder\bin\Debug\net6.0\StringLengthFinder.deps.json
+C:\StringLengthFinder\StringLengthFinder\bin\Debug\net6.0\StringLengthFinder.runtimeconfig.json
+C:\StringLengthFinder\StringLengthFinder\bin\Debug\net6.0\StringLengthFinder.dll
+C:\StringLengthFinder\StringLengthFinder\bin\Debug\net6.0\StringLengthFinder.pdb
+C:\StringLengthFinder\StringLengthFinder\obj\Debug\net6.0\StringLengthFinder.csproj.AssemblyReference.cache
+C:\StringLengthFinder\StringLengthFinder\obj\Debug\net6.0\StringLengthFinder.GeneratedMSBuildEditorConfig.editorconfig
+C:\StringLengthFinder\StringLengthFinder\obj\Debug\net6.0\StringLengthFinder.AssemblyInfoInputs.cache
+C:\StringLengthFinder\StringLengthFinder\obj\Debug\net6.0\StringLengthFinder.AssemblyInfo.cs
+C:\StringLengthFinder\StringLengthFinder\obj\Debug\net6.0\StringLengthFinder.csproj.CoreCompileInputs.cache
+C:\StringLengthFinder\StringLengthFinder\obj\Debug\net6.0\StringLengthFinder.dll
+C:\StringLengthFinder\StringLengthFinder\obj\Debug\net6.0\refint\StringLengthFinder.dll
+C:\StringLengthFinder\StringLengthFinder\obj\Debug\net6.0\StringLengthFinder.pdb
+C:\StringLengthFinder\StringLengthFinder\obj\Debug\net6.0\StringLengthFinder.genruntimeconfig.cache
+C:\StringLengthFinder\StringLengthFinder\obj\Debug\net6.0\ref\StringLengthFinder.dll
