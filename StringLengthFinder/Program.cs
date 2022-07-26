@@ -6,7 +6,12 @@ namespace stringlengthHelper
     {
         public static int FindLength(string str)
         {
-            return str.Length;
+            int length = 0;
+            foreach(var i in str)
+            {
+                length++;
+            }
+            return length;
         }
     }
     public class Program

@@ -9,14 +9,20 @@ namespace LengthHelperTest
     {
        [Theory]
        [InlineData("123")]
-       [InlineData("123456789010")]
        public void StringLength_WhenNumberGiven(string mystring)
        {
           int length = LengthHelper.FindLength(mystring);
-          Assert.Equal(mystring.Length, length);
+          Assert.Equal(3, length);
        }
+        [Theory]
+        [InlineData("123456789010")]
+        public void StringLength_WhenStringNumberGiven(string mystring)
+        {
+            int length = LengthHelper.FindLength(mystring);
+            Assert.Equal(12, length);
+        }
 
-       [Fact]
+        [Fact]
        public void StringLength_WhenEmptyStringGiven()
        {
             string length = "";
