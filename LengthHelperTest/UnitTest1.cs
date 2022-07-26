@@ -1,6 +1,7 @@
 using Xunit;
 using System;
 using stringlengthHelper;
+using System.Net;
 
 namespace LengthHelperTest
 {
@@ -11,7 +12,8 @@ namespace LengthHelperTest
        [InlineData("123456789010")]
        public void StringLength_WhenNumberGiven(string mystring)
        {
-          Assert.Throws<InvalidOperationException>(() => LengthHelper.FindLength(mystring));
+          int length = LengthHelper.FindLength(mystring);
+          Assert.Equal(mystring.Length, length);
        }
 
        [Fact]
@@ -26,7 +28,8 @@ namespace LengthHelperTest
        {
             string length = string.Empty;
             Assert.Equal(0, LengthHelper.FindLength(length));
-       }      
+       }
+         
     }
 }
 
