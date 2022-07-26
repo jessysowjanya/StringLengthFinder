@@ -8,19 +8,14 @@ namespace LengthHelperTest
     public class UnitTest1
     {
        [Theory]
-       [InlineData("123")]
-       public void StringLength_WhenNumberGiven(string mystring)
+       [InlineData("123",3)]
+       [InlineData("123456789010",12)]
+       public void StringLength_WhenNumberGiven(string mystring, int expected)
        {
-          int length = LengthHelper.FindLength(mystring);
-          Assert.Equal(3, length);
+          var length = LengthHelper.FindLength(mystring);
+          Assert.Equal(expected, length);
        }
-        [Theory]
-        [InlineData("123456789010")]
-        public void StringLength_WhenStringNumberGiven(string mystring)
-        {
-            int length = LengthHelper.FindLength(mystring);
-            Assert.Equal(12, length);
-        }
+       
 
         [Fact]
        public void StringLength_WhenEmptyStringGiven()
